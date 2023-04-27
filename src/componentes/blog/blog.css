@@ -1,0 +1,26 @@
+.blog {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.blogItem {
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blogImg {
+  width: 100%;
+}
+
+.blogName {
+  font-weight: bold;
+}
+
+.blogDesc {
+  font-weight: 300;
+}
